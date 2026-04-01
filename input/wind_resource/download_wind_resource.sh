@@ -7,7 +7,7 @@
 ####SBATCH --time=48:00:00
 #SBATCH --time=4:00:00
 #SBATCH --account=iedo00onsite
-#SBATCH --mail-user egrant@nrel.gov
+#SBATCH --mail-user dbernal@nlr.gov
 #SBATCH --mail-type BEGIN,END,FAIL
 module load conda
 conda activate /scratch/egrant/tofu_env

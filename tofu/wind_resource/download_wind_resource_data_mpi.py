@@ -114,7 +114,7 @@ if __name__=="__main__":
     sitelist = pd.read_pickle(wind_sitelist_fpath)
 
     
-    wind_resource_dir = "/projects/iedo00onsite/data/wind_resource_data"
+    wind_resource_dir = "/projects/iedo00onsite/onsite-energy-analysis/data/wind_resource_data"
     input_dict = {
         "output_dir":wind_resource_dir,
         "resource_year":2012,
